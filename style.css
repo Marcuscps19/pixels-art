@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='113' height='113' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23AE9' fill-opacity='0.45' points='120 120 60 120 90 90 120 60 120 0 120 0 60 60 0 0 0 60 30 90 60 120 120 120 '/%3E%3C/svg%3E");
+  text-align: center;
+  font-family: Josefin Sans, sans-serif;
+}
+
+#title {
+  padding: 1em;
+}
+
+#color-palette {
+  display: block;
+  padding: 1.5em;
+  width: 15%;
+  margin: auto;
+  margin-bottom: 1em;
+  background-color: rgb(70, 123, 86);
+  border-radius: 2em;
+  box-shadow: 10px 10px 12px #326245, -10px -10px 12px #70da99;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background-color: black;
+}
+
+.buttom {
+  display: inline-block;
+  margin: 5px 5px 5px 0;
+  padding: 3px;
+  border-radius: 4px;
+  background: #519e6f;
+  box-shadow: 10px 10px 12px #326245, -10px -10px 12px #70da99;
+  cursor: pointer;
+}
+
+#board-size {
+  display: inline-block;
+  width: 60px;
+  margin: 15px 5px 5px 0;
+  padding: 3px;
+  box-shadow: 10px 10px 12px #326245, -10px -10px 12px #70da99;
+}
+
+#pixel-board-section {
+  margin: auto;
+  padding: 2em;
+}
+
+#pixel-board {
+  display: table;
+  border-collapse: collapse;
+  margin: auto;
+  box-shadow: 10px 10px 12px #326245, -10px -10px 12px #70da99;
+}
+
+.pixel-row {
+  display: table-row;
+}
+
+.pixel {
+  display: table-cell;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
+.selected {
+  box-shadow: 0.1em 0.1em 0.1em 0.1em grey inset;
+}
+
+#how-to-use p {
+  line-height: 2em;
+}
