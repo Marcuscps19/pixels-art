@@ -4,6 +4,8 @@
 
 ---
 
+Visualize o projeto nesse link: [Pixels Art](https://marcuscps19.github.io/pixels-art/)
+
 ## Tecnologias
 
 As tecnologias  utilizadas foram:
