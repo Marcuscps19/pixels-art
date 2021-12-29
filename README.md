@@ -1,6 +1,6 @@
 ## Projeto Arte com Pixels
 
- Esse projeto é referente ao bloco 5 do curso da Trybe. O desafio era a implementação de uma página web que contenha uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.
+Paleta de cores funcional que pode ser utilizada para criar desenhos em pixels.
 
 ---
 
